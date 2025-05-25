@@ -2,9 +2,14 @@
 
 ## Project Overview
 This project aims to solve the TSP using three different methods:
-- Brute Force
-- Branch and Bound
-- Ant Colony Optimization
+- Brute Force -Exact Algo
+- Branch and Bound-Exact Algo
+- Ant Colony Optimization--Heuristic Algo(still work in progress)
+
+  also note to mention other methods, e.g
+Dynamic Programming
+Nearest Neighbour
+Genetic Algorithm
 
 Each method is implemented in its own folder under `methods/`.
 

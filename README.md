@@ -22,14 +22,18 @@ Each method is implemented in its own folder under `methods/`.
 8. After approvals, merge your PR.
 
 ## Team Task Division
-- Member 1-3: Implement and optimize Brute Force method (`methods/brute_force/`)
-- Member 4-6: Implement and optimize Branch and Bound method (`methods/branch_and_bound/`)
-- Member 7-9: Implement and optimize Ant Colony Optimization method (`methods/ant_colony_optimization/`)
+Member 1- Intoduce TSP, why it matters e.t.c
+- Member 2-3: Implement and optimize Brute Force method (`methods/brute_force/`)
+- Member 3-4: Implement and optimize Branch and Bound method (`methods/branch_and_bound/`)
+- Member 4: Finalize with Implementing and optimize Ant Colony Optimization method (`methods/ant_colony_optimization/`)
+- Member 5-6: Visualization of the routes and Optimization
+- Member 7:
+- Member 8-9: Slides compilation and Presentation Support
 - Member 10: Project integration, testing, and documentation
 
 ## How to Run
 Instructions to be added once implementations are complete.
 
 ## License
-Add license info here.
+info? hii ni about
 

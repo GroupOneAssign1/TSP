@@ -37,7 +37,75 @@ Member 1- Intoduce TSP, why it matters e.t.c
 - Member 10: Project integration, testing, and documentation
 
 ## How to Run
-Instructions to be added once implementations are complete.
+How to Run the Program
+
+Follow these steps to set up and execute the TSP solver on your local machine:
+Prerequisites
+
+    Python 3.x: Ensure you have Python 3.6 or newer installed. You can download it from python.org.
+
+Setup Steps
+
+    Clone the Repository:
+    If you haven't already, clone the project repository to your local machine:
+    Bash
+
+git clone https://github.com/GroupOneAssign1/TSP.git
+
+Navigate to the Project Directory:
+Change your current directory to the cloned TSP project folder:
+Bash
+
+cd TSP
+
+Create a Virtual Environment (Recommended):
+It's best practice to create a virtual environment to manage project dependencies.
+Bash
+
+python -m venv .venv
+
+Activate the Virtual Environment:
+
+    On Windows:
+    PowerShell
+
+.\.venv\Scripts\activate
+
+On macOS/Linux:
+Bash
+
+    source ./.venv/bin/activate
+
+(You should see (.venv) at the beginning of your terminal prompt, indicating the environment is active.)
+
+Install Dependencies (if any):
+If the project relies on external Python libraries (e.g., NumPy, SciPy), they would typically be listed in a requirements.txt file. If such a file exists, install them:
+Bash
+
+    pip install -r requirements.txt
+
+    (If no requirements.txt exists, you can skip this step, or install any necessary libraries individually, e.g., pip install numpy)
+
+Running the Solver
+
+Once the setup is complete, you can run the TSP solver.
+
+    To run the main solver program:
+    Bash
+
+python tsp_solver.py
+
+Input (if applicable):
+(Add details here on how your program expects input. For example:)
+
+    The program might prompt you to enter city coordinates or a distance matrix.
+    Alternatively, it might read input from a specific file, e.g., python tsp_solver.py --input data.txt (Adjust this based on how your tsp_solver.py file actually handles input.)
+
+Output:
+(Describe what the user should expect to see as output. For example:)
+
+    The program will output the shortest tour found, the order of cities visited, and the total distance.
+    It might also display intermediate steps or a visual representation of the path.
 
 ## License
 info? 

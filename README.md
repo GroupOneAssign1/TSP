@@ -32,7 +32,7 @@ Member 1- Intoduce TSP, why it matters e.t.c
 - Member 3-4: Implement and optimize Branch and Bound method (`methods/branch_and_bound/`)
 - Member 4: Finalize with Implementing and optimize Ant Colony Optimization method (`methods/ant_colony_optimization/`)
 - Member 5-6: Visualization of the routes and Optimization
-- Member 7:
+- Member 7: Conclusions and Recommendation
 - Member 8-9: Slides compilation and Presentation Support
 - Member 10: Project integration, testing, and documentation
 
@@ -40,5 +40,5 @@ Member 1- Intoduce TSP, why it matters e.t.c
 Instructions to be added once implementations are complete.
 
 ## License
-info? hii ni about
-
+info? 
+Any ideas, send hapa, after this...the floor is open

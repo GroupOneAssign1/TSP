@@ -1,0 +1,76 @@
+# Complexity and Performance Comparison of Brute Force vs Branch and Bound Methods for TSP
+
+## Overview
+
+This report compares two algorithms — **Brute Force** and **Branch and Bound** — used to solve the **Travelling Salesman Problem (TSP)** for a product marketing route covering:
+
+**Nairobi → Nyeri → Meru → Nakuru → Kericho → Nandi → Nairobi**
+
+---
+
+## 1. Brute Force Method
+
+### ✔️ Description
+- Tries **all possible permutations** of city visits.
+- Selects the path with the **minimum total cost**.
+- Guarantees the **optimal solution**.
+
+### 🧠 Time Complexity
+- **O(n!)** — factorial time due to all permutations.
+- For `n = 6`, it checks `6! = 720` paths.
+- Becomes infeasible as `n` grows.
+
+### 🧠 Space Complexity
+- **O(n)** — recursion stack or array to store cities.
+
+### 🟡 Pros
+- Always finds the best route.
+- Simple to implement.
+
+### 🔴 Cons
+- Very slow for large `n` (scales poorly).
+
+---
+
+## 2. Branch and Bound Method
+
+### ✔️ Description
+- Builds paths step-by-step, **eliminating paths** that are worse than the current best.
+- Uses **bounds** to cut down the search space.
+
+### 🧠 Time Complexity
+- **Best Case:** O(n²)
+- **Worst Case:** Still O(n!) — but often much faster than brute force due to pruning.
+
+### 🧠 Space Complexity
+- **O(n²)** — because of cost matrix and priority queues (in typical implementations).
+
+### 🟢 Pros
+- More efficient than brute force.
+- Avoids exploring all paths.
+
+### 🟠 Cons
+- Still exponential in worst case.
+- Needs more logic and memory than brute force.
+
+---
+
+## 3. Performance Comparison (Applied to the 6-City TSP)
+
+| Feature                  | Brute Force             | Branch and Bound           |
+|--------------------------|--------------------------|------------------------------|
+| **Accuracy**             | Optimal                  | Optimal                     |
+| **Speed (n=6)**          | Slower (checks all)      | Faster (skips many paths)   |
+| **Memory Usage**         | Low                      | Moderate to High            |
+| **Scalability**          | Poor                     | Better                      |
+| **Implementation**       | Simple                   | Complex                     |
+
+---
+
+## 4. Conclusion
+
+- For small datasets (like our 6 cities), **both methods work well**.
+- **Brute Force** is fine for learning and demonstration.
+- **Branch and Bound** is better for performance and larger instances.
+- In real-world product marketing, **Branch and Bound** provides a practical trade-off between speed and optimality.
+

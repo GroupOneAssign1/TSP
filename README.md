@@ -109,6 +109,7 @@ Output:
 
 
 🧾 Conclusions
+
 1.Diverse Algorithm Implementation: The project explores multiple approaches to solving the TSP, including:
 
     1.Brute Force: An exact algorithm that evaluates all possible permutations to find the optimal solution.
@@ -122,6 +123,7 @@ Output:
 3.Collaborative Development: The presence of a CONTRIBUTIONS.md file and detailed contribution guidelines indicates an emphasis on collaborative development and version control practices.
 
 ✅ Recommendations
+
 1.Complete the ACO Implementation: Finalizing the Ant Colony Optimization algorithm would enhance the project's exploration of heuristic methods and provide a comparative analysis against exact algorithms.
 arXiv
 
